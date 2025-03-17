@@ -1,17 +1,46 @@
 <!DOCTYPE html>
 <html lang="">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
-  </head>
-  <body>
-    <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> -->
+  <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+  <title>
+    <%= htmlWebpackPlugin.options.title %>
+  </title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+
+<body>
+  <script type="text/javascript" src="https://widget.senja.io/js/iframeResizer.min.js"></script>
+  <script type="text/javascript">iFrameResize({ log: false, checkOrigin: false }, "#senja-collector-iframe");</script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+ 
+
+  <noscript>
+    <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled.
+        Please enable it to continue.</strong>
+  </noscript>
+
+  <div id="app"></div>
+  <script src="https://widget.senja.io/widget/068f0ae3-5269-4b46-82c5-6866b7c956ce/platform.js" type="text/javascript"
+    async></script>
+
+
+  <!-- <script type="text/javascript" src="https://widget.senja.io/js/iframeResizer.min.js"></script>
+  <iframe id="senja-collector-iframe" src="https://senja.io/p/exolar-energy/r/JGPPsO?mode=embed&nostyle=true"
+    allow="camera;microphone" title="Senja form" frameborder="0" scrolling="no" width="100%" height="700"></iframe>
+  <script type="text/javascript">iFrameResize({ log: false, checkOrigin: false }, "#senja-collector-iframe");</script> -->
+  <!-- built files will be auto injected -->
+</body>
+
 </html>
