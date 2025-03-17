@@ -1,17 +1,24 @@
 <template>
     <div class="position-fixed w-100 d-flex justify-content-between  align-items-center p-2 top-0 bg-white border-bottom"
         style="z-index: 10; height: 60px;">
-        <router-link to="/" class="text-decoration-none text-dark d-flex align-items-center">
+        <a href="https://www.exolarenergy.com/" class="text-decoration-none text-dark d-flex align-items-center">
             <img src="/img/logo.png" alt="Rooftop solar panel installation in Delhi by Exolar Energy" height="40px"
                 width="auto">
-        </router-link>
+        </a>
+        <!-- <router-link to="/" class="text-decoration-none text-dark d-flex align-items-center">
+            <img src="/img/logo.png" alt="Rooftop solar panel installation in Delhi by Exolar Energy" height="40px"
+                width="auto">
+        </router-link> -->
         <div class="d-flex align-items-center gap-3">
-            <a href="https://www.exolarenergy.com/" class="btn text-white" style="background-color: var(--bg-third)">
-                <i class="bi bi-house"></i> <i class="visit bi bi-arrow-right"></i>
-            </a> 
+            <a href="https://www.exolarenergy.com/"
+                class="btn text-white d-flex justify-content-center align-items-center"
+                style="background-color: var(--bg-third)">
+                <i class="bi bi-house me-2"></i>
+                <p class="ms-2 me-3 d-none d-md-block mb-0">Home</p> <i class="visit bi bi-arrow-right"></i>
+            </a>
         </div>
     </div>
-    
+
 </template>
 <script>
 
