@@ -1,6 +1,6 @@
 <template>
     <div class="mb-5">
-        <SectionTopBanner mobileImage="/img/solarMobile.jpg" desktopImg="/img/solarDesktop.jpg" />
+        <SectionTopBanner mobileImage="/img/solarMobile.png" desktopImg="/img/solarDesktop.png" />
         <div class="container my-5">
             <form v-if="capacityConsumption === 0" @submit.prevent="" class="row">
                 <h1 class="text-center mb-4 text-capitalize">Your Details</h1>
